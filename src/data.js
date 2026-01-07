@@ -4,42 +4,42 @@ const products = [
     name: "Wireless Headphones",
     description: "High-quality sound with noise cancellation.",
     price: 999,
-    image: "/src/assets/images/headphones.jpg",
+    image: "/images/headphones.jpg",
   },
   {
     id: 2,
     name: "Smart Watch",
     description: "Track your fitness and stay connected.",
     price: 2449,
-    image: "src/assets/images/smartwatch.webp",
+    image: "/images/smartwatch.webp",
   },
   {
     id: 3,
     name: "Gaming Mouse",
     description: "Precision and comfort for long gaming sessions.",
     price: 599,
-    image: "src/assets/images/gamingmouse.webp",
+    image: "/images/gamingmouse.webp",
   },
   {
     id: 4,
     name: "Bluetooth Speaker",
     description: "Portable speaker with deep bass.",
     price: 1179,
-    image: "src/assets/images/bluetoothspeaker.webp",
+    image: "/images/bluetoothspeaker.webp",
   },
   {
     id: 5,
     name: "Laptop Stand",
     description: "Ergonomic design for better posture.",
     price: 399,
-    image: "src/assets/images/laptopstand.webp",
+    image: "/images/laptopstand.webp",
   },
   {
     id: 6,
     name: "Mechanical Keyboard",
     description: "Tactile keys with RGB lighting.",
     price: 1229,
-    image: "src/assets/images/mechanicalkeyboard.webp",
+    image: "/images/mechanicalkeyboard.webp",
   },
 
   {
@@ -47,7 +47,7 @@ const products = [
     name: "Portable SSD",
     description: "Fast transfer speeds with 1TB capacity.",
     price: 6999,
-    image: "src/assets/images/portablessd.webp",
+    image: "/images/portablessd.webp",
   },
 
   {
@@ -55,7 +55,7 @@ const products = [
     name: "Webcam",
     description: "Full HD 1080p video with autofocus.",
     price: 2299,
-    image: "src/assets/images/webcam.webp",
+    image: "/images/webcam.webp",
   },
 
   {
@@ -63,7 +63,7 @@ const products = [
     name: "USB-C Hub",
     description: "Multiport adapter with HDMI and USB 3.0.",
     price: 1499,
-    image: "src/assets/images/usbhub.webp",
+    image: "/images/usbhub.webp",
   },
 
 
