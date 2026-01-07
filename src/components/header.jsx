@@ -1,4 +1,5 @@
 import { memo } from 'react';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -13,11 +14,11 @@ const Header = () => {
 
 
                     <nav className="hidden md:flex space-x-6">
-                        <a href="/" className="text-gray-700 hover:text-amber-600">Home</a>
-                        <a href="/about" className="text-gray-700 hover:text-amber-600">About</a>
-                        <a href="/products" className="text-gray-700 hover:text-amber-600">Products</a>
-                        <a href="/service" className="text-gray-700 hover:text-amber-600">Services</a>
-                        <a href="/contact" className="text-gray-700 hover:text-amber-600">Contact</a>
+                        <Link href="/" className="text-gray-700 hover:text-amber-600">Home</Link>
+                        <Link href="/about" className="text-gray-700 hover:text-amber-600">About</Link>
+                        <Link href="/products" className="text-gray-700 hover:text-amber-600">Products</Link>
+                        <Link href="/service" className="text-gray-700 hover:text-amber-600">Services</Link>
+                        <Link href="/contact" className="text-gray-700 hover:text-amber-600">Contact</Link>
                     </nav>
 
 
