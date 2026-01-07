@@ -1,6 +1,8 @@
 import { memo } from 'react';
 import { Link } from "react-router-dom";
 
+import logo from "../assets/images/logo.png";
+
 const Header = () => {
     return (
         <>
@@ -8,17 +10,17 @@ const Header = () => {
                 <div className="container mx-auto px-4 py-3 flex justify-between items-center">
 
                     <div className="flex items-center text-2xl font-bold text-amber-600">
-                        <img src="src/assets/images/logo.png" alt="" style={{width:"130px"}}/>
+                        <img src={logo} alt="Logo" style={{width:"130px"}}/>
                         <a href="/">Johnson Electronics</a>
                     </div>
-
+<a href=""></a>
 
                     <nav className="hidden md:flex space-x-6">
-                        <Link href="/" className="text-gray-700 hover:text-amber-600">Home</Link>
-                        <Link href="/about" className="text-gray-700 hover:text-amber-600">About</Link>
-                        <Link href="/products" className="text-gray-700 hover:text-amber-600">Products</Link>
-                        <Link href="/service" className="text-gray-700 hover:text-amber-600">Services</Link>
-                        <Link href="/contact" className="text-gray-700 hover:text-amber-600">Contact</Link>
+                        <a href="/" className="text-gray-700 hover:text-amber-600">Home</a>
+                        <a href="/about" className="text-gray-700 hover:text-amber-600">About</a>
+                        <a href="/products" className="text-gray-700 hover:text-amber-600">Products</a>
+                        <a href="/service" className="text-gray-700 hover:text-amber-600">Services</a>
+                        <a href="/contact" className="text-gray-700 hover:text-amber-600">Contact</a>
                     </nav>
 
 

@@ -27,13 +27,13 @@ function App() {
           </>
         }/>
         <Route
-        path='about' element={<Aboutus/>}/>
+        path='/about' element={<Aboutus/>}/>
         <Route 
-        path='products' element={<Products/>}/>
+        path='/products' element={<Products/>}/>
         <Route
-        path='service' element={<Service/>}/>
+        path='/service' element={<Service/>}/>
         <Route
-        path='contact' element={<Contact/>}/>
+        path='/contact' element={<Contact/>}/>
       </Routes>
       </BrowserRouter>
     
